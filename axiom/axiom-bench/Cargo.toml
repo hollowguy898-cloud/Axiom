@@ -1,0 +1,23 @@
+[package]
+name = "axiom-bench"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "axiom-bench"
+path = "main.rs"
+
+[dependencies]
+axiom-ir = { workspace = true }
+axiom-mir = { workspace = true }
+axiom-opt = { workspace = true }
+axiom-ownership = { workspace = true }
+axiom-target = { workspace = true }
+axiom-x86 = { workspace = true }
+axiom-regalloc = { workspace = true }
+axiom-legalize = { workspace = true }
+axiom-codegen = { workspace = true }
+axiom-driver = { workspace = true }
+axiom-block-layout = { workspace = true }
+axiom-lto = { workspace = true }
+axiom-autotune = { workspace = true }

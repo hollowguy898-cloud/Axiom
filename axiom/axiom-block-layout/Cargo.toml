@@ -1,0 +1,8 @@
+[package]
+name = "axiom-block-layout"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+axiom-ir = { workspace = true }
+axiom-mir = { workspace = true }

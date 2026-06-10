@@ -1,0 +1,46 @@
+[workspace]
+resolver = "2"
+members = [
+    "axiom-ir",
+    "axiom-mir",
+    "axiom-opt",
+    "axiom-ownership",
+    "axiom-target",
+    "axiom-x86",
+    "axiom-aarch64",
+    "axiom-riscv",
+    "axiom-wasm",
+    "axiom-regalloc",
+    "axiom-legalize",
+    "axiom-codegen",
+    "axiom-driver",
+    "axiom-block-layout",
+    "axiom-lto",
+    "axiom-autotune",
+    "axiom-span",
+    "axiom-bench",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[workspace.dependencies]
+axiom-ir = { path = "axiom-ir" }
+axiom-mir = { path = "axiom-mir" }
+axiom-opt = { path = "axiom-opt" }
+axiom-ownership = { path = "axiom-ownership" }
+axiom-target = { path = "axiom-target" }
+axiom-x86 = { path = "axiom-x86" }
+axiom-aarch64 = { path = "axiom-aarch64" }
+axiom-riscv = { path = "axiom-riscv" }
+axiom-wasm = { path = "axiom-wasm" }
+axiom-regalloc = { path = "axiom-regalloc" }
+axiom-legalize = { path = "axiom-legalize" }
+axiom-codegen = { path = "axiom-codegen" }
+axiom-driver = { path = "axiom-driver" }
+axiom-block-layout = { path = "axiom-block-layout" }
+axiom-lto = { path = "axiom-lto" }
+axiom-autotune = { path = "axiom-autotune" }
+axiom-span = { path = "axiom-span" }

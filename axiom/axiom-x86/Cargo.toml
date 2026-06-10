@@ -1,0 +1,9 @@
+[package]
+name = "axiom-x86"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+axiom-ir = { workspace = true }
+axiom-mir = { workspace = true }
+axiom-target = { workspace = true }

@@ -1,0 +1,9 @@
+[package]
+name = "axiom-lto"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+axiom-ir = { workspace = true }
+axiom-opt = { workspace = true }
+axiom-ownership = { workspace = true }

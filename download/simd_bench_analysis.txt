@@ -1,0 +1,243 @@
+SIMD Benchmark: Axiom vs GCC -O3 Analysis
+============================================================
+
+Kernel: vec_add
+  total_instructions: 53
+  vector_instructions: 0
+  sse_instructions: 0
+  avx_instructions: 0
+  avx2_instructions: 0
+  avx512_instructions: 0
+  load_instructions: 0
+  store_instructions: 0
+  vec_load_instructions: 0
+  vec_store_instructions: 0
+  branch_instructions: 0
+  scalar_instructions: 53
+  code_bytes: 0
+  has_vectorized_loop: True
+  vector_width_bits: 256
+  loop_count: 5
+  has_remainder_loop: True
+  has_peeled_loop: True
+
+Kernel: vec_fma
+  total_instructions: 56
+  vector_instructions: 0
+  sse_instructions: 0
+  avx_instructions: 0
+  avx2_instructions: 0
+  avx512_instructions: 0
+  load_instructions: 0
+  store_instructions: 0
+  vec_load_instructions: 0
+  vec_store_instructions: 0
+  branch_instructions: 0
+  scalar_instructions: 56
+  code_bytes: 0
+  has_vectorized_loop: True
+  vector_width_bits: 256
+  loop_count: 5
+  has_remainder_loop: True
+  has_peeled_loop: True
+
+Kernel: reduction_sum
+  total_instructions: 70
+  vector_instructions: 0
+  sse_instructions: 0
+  avx_instructions: 0
+  avx2_instructions: 0
+  avx512_instructions: 0
+  load_instructions: 0
+  store_instructions: 0
+  vec_load_instructions: 0
+  vec_store_instructions: 0
+  branch_instructions: 0
+  scalar_instructions: 70
+  code_bytes: 0
+  has_vectorized_loop: True
+  vector_width_bits: 256
+  loop_count: 7
+  has_remainder_loop: True
+  has_peeled_loop: True
+
+Kernel: reduction_dot
+  total_instructions: 87
+  vector_instructions: 0
+  sse_instructions: 0
+  avx_instructions: 0
+  avx2_instructions: 0
+  avx512_instructions: 0
+  load_instructions: 0
+  store_instructions: 0
+  vec_load_instructions: 0
+  vec_store_instructions: 0
+  branch_instructions: 0
+  scalar_instructions: 87
+  code_bytes: 0
+  has_vectorized_loop: True
+  vector_width_bits: 256
+  loop_count: 6
+  has_remainder_loop: True
+  has_peeled_loop: True
+
+Kernel: vec_scalar_mul
+  total_instructions: 53
+  vector_instructions: 0
+  sse_instructions: 0
+  avx_instructions: 0
+  avx2_instructions: 0
+  avx512_instructions: 0
+  load_instructions: 0
+  store_instructions: 0
+  vec_load_instructions: 0
+  vec_store_instructions: 0
+  branch_instructions: 0
+  scalar_instructions: 53
+  code_bytes: 0
+  has_vectorized_loop: True
+  vector_width_bits: 256
+  loop_count: 5
+  has_remainder_loop: True
+  has_peeled_loop: True
+
+Kernel: vec_copy
+  total_instructions: 8
+  vector_instructions: 0
+  sse_instructions: 0
+  avx_instructions: 0
+  avx2_instructions: 0
+  avx512_instructions: 0
+  load_instructions: 0
+  store_instructions: 0
+  vec_load_instructions: 0
+  vec_store_instructions: 0
+  branch_instructions: 0
+  scalar_instructions: 8
+  code_bytes: 0
+  has_vectorized_loop: False
+  vector_width_bits: 0
+  loop_count: 2
+  has_remainder_loop: False
+  has_peeled_loop: False
+
+Kernel: vec_masked_add
+  total_instructions: 75
+  vector_instructions: 0
+  sse_instructions: 0
+  avx_instructions: 0
+  avx2_instructions: 0
+  avx512_instructions: 0
+  load_instructions: 0
+  store_instructions: 0
+  vec_load_instructions: 0
+  vec_store_instructions: 0
+  branch_instructions: 0
+  scalar_instructions: 75
+  code_bytes: 0
+  has_vectorized_loop: True
+  vector_width_bits: 256
+  loop_count: 5
+  has_remainder_loop: True
+  has_peeled_loop: True
+
+Kernel: reduction_max
+  total_instructions: 71
+  vector_instructions: 0
+  sse_instructions: 0
+  avx_instructions: 0
+  avx2_instructions: 0
+  avx512_instructions: 0
+  load_instructions: 0
+  store_instructions: 0
+  vec_load_instructions: 0
+  vec_store_instructions: 0
+  branch_instructions: 0
+  scalar_instructions: 71
+  code_bytes: 0
+  has_vectorized_loop: True
+  vector_width_bits: 256
+  loop_count: 5
+  has_remainder_loop: True
+  has_peeled_loop: True
+
+Kernel: vec_add_f64
+  total_instructions: 36
+  vector_instructions: 0
+  sse_instructions: 0
+  avx_instructions: 0
+  avx2_instructions: 0
+  avx512_instructions: 0
+  load_instructions: 0
+  store_instructions: 0
+  vec_load_instructions: 0
+  vec_store_instructions: 0
+  branch_instructions: 0
+  scalar_instructions: 36
+  code_bytes: 0
+  has_vectorized_loop: True
+  vector_width_bits: 256
+  loop_count: 5
+  has_remainder_loop: True
+  has_peeled_loop: True
+
+Kernel: reduction_sum_f64
+  total_instructions: 38
+  vector_instructions: 0
+  sse_instructions: 0
+  avx_instructions: 0
+  avx2_instructions: 0
+  avx512_instructions: 0
+  load_instructions: 0
+  store_instructions: 0
+  vec_load_instructions: 0
+  vec_store_instructions: 0
+  branch_instructions: 0
+  scalar_instructions: 38
+  code_bytes: 0
+  has_vectorized_loop: True
+  vector_width_bits: 128
+  loop_count: 7
+  has_remainder_loop: True
+  has_peeled_loop: True
+
+Kernel: stream_triad
+  total_instructions: 38
+  vector_instructions: 0
+  sse_instructions: 0
+  avx_instructions: 0
+  avx2_instructions: 0
+  avx512_instructions: 0
+  load_instructions: 0
+  store_instructions: 0
+  vec_load_instructions: 0
+  vec_store_instructions: 0
+  branch_instructions: 0
+  scalar_instructions: 38
+  code_bytes: 0
+  has_vectorized_loop: True
+  vector_width_bits: 256
+  loop_count: 5
+  has_remainder_loop: True
+  has_peeled_loop: True
+
+Kernel: vec_xor
+  total_instructions: 53
+  vector_instructions: 0
+  sse_instructions: 0
+  avx_instructions: 0
+  avx2_instructions: 0
+  avx512_instructions: 0
+  load_instructions: 0
+  store_instructions: 0
+  vec_load_instructions: 0
+  vec_store_instructions: 0
+  branch_instructions: 0
+  scalar_instructions: 53
+  code_bytes: 0
+  has_vectorized_loop: True
+  vector_width_bits: 256
+  loop_count: 5
+  has_remainder_loop: True
+  has_peeled_loop: True
+

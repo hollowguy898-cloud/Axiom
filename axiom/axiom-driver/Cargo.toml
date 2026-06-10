@@ -1,0 +1,17 @@
+[package]
+name = "axiom-driver"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+axiom-ir = { workspace = true }
+axiom-mir = { workspace = true }
+axiom-opt = { workspace = true }
+axiom-ownership = { workspace = true }
+axiom-target = { workspace = true }
+axiom-regalloc = { workspace = true }
+axiom-legalize = { workspace = true }
+axiom-codegen = { workspace = true }
+
+[dev-dependencies]
+axiom-x86 = { workspace = true }

@@ -1,0 +1,7 @@
+[package]
+name = "axiom-ownership"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+axiom-ir = { workspace = true }
